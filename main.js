@@ -43,5 +43,11 @@
             .then(onSuccessPosts)
             .catch(onErrorPosts)
     }
+    beforeinstallprompt( (e) => {
+  console.log("SW beforeinstall prompt event");
+  e.preventDefault();
+  e.prompt()
+    })
+    window.beforeinstallprompt = beforeinstallprompt
     window.onload = init
 })()
