@@ -1,4 +1,4 @@
-window.addEventListener("beforeinstallprompt", (e) => {
+self.addEventListener("beforeinstallprompt", (e) => {
   console.log("SW beforeinstall prompt event");
   e.preventDefault();
   e.prompt()
