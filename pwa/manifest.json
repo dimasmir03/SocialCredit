@@ -1,0 +1,25 @@
+{
+  
+   "short_name": "PWA",
+    "name": "Progressive Web App",
+    "lang": "en",
+    "background_color": "#343a40",
+    "theme_color": "#343a40",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": "/",
+    "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "./images/splash-screen.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "./images/apple-touch.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
