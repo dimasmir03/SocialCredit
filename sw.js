@@ -1,3 +1,8 @@
+window.addEventListener("beforeinstallprompt", (e) => {
+  e.preventDefault();
+  e.prompt()
+})
+
 self.addEventListener('install', function(event) {
     console.log("SW Install Event: Is in the process");
 })
